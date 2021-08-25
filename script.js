@@ -11,7 +11,8 @@ function writePassword() {
 
 function generatePassword() {
   // Ask the user for their password criteria
-var pssWord = prompt("Length of password should be between 8 and 128 characters");
+var pssWord = prompt("Length of password should be between 8 and 128 characters", "");
+var psswrd2 = prompt("Your password can include lowercase, uppercase, numeric, and/or special characters", "");
   // generate the password based off the criteria
 
   // `return` that password
